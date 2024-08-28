@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://png.pngtree.com/background/20230420/original/pngtree-nature-animated-blue-sky-clouds-picture-image_2448754.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    widows: 100wh; 
+}
+#bird{
+    block-size: 20vh 20vh;
+    animation-name: birds;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    background-image: url("—Pngtree—multiple\ flying\ birds_8061666\ \(1\).png");
+    height: 20vh;
+    width: 20vh;
+
+}
+@keyframes birds{
+    from{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        position: absolute;
+        left: 100%;
+        
+    }
+}
+
+#air{
+    block-size: 20vh 20vh;
+    animation-name: air;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    background-image: url("—Pngtree—car\ sports\ car\ transportation_8253017.png");
+    height: 20vh;
+    width: 20vh;
+
+}
+@keyframes air{
+    from{
+        position: absolute;
+        right: 0%;
+        top: 10%;
+    }
+    to{
+        position: absolute;
+        right: 100%;
+        top: 10%;
+    }
+}

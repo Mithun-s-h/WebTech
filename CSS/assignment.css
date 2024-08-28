@@ -1,0 +1,16 @@
+*{
+    background-color: green;
+}
+section{
+    font-size: 100px;
+}
+section,p{
+    color: yellow;
+}
+input{
+    background-color: white;
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}

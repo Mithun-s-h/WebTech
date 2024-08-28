@@ -1,0 +1,29 @@
+/* id */
+#ss{
+    color:aqua;
+    font-size: 50px;
+}
+
+/* class */
+.cs{
+    background-color: brown;
+    color:black
+}
+
+/* tagname */
+nav{
+    color: aqua;
+    font-size: 100px;
+}
+
+/* Grouping  */
+h3,aside,section,article{
+    color:aquamarine;
+    background: blueviolet;
+}
+
+/* Universe */
+*{
+    color: black;
+    background-color: white;
+}

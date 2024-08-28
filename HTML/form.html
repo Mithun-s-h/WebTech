@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="" autocomplete="" method="post"> <!--autocomplete(on) default, is used to save and suggest the previously entered data
+                                                       autocomplete(of) it won't suggest 
+                                         method : 2 values
+                                                  get(default)-data is visible in URL,can hold 2048 char
+                                                  post- not visible,hold n number of char-->
+        <fieldset>                   <!-- To give Border/Margin/Box -->
+            <legend>FORM</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="user">USERNAME</label> <!--for is use to link the lable and input and value must be same in id also-->
+                    </td>
+                    <td>
+                        <input type="text" id="user">      <!--id is use to link the lable and input and value must be same in for also-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">PASSWORD</label>
+                    </td>
+                    <td>
+                        <input type="PASSWORD" id="password" name="pass" placeholder="password"><!--in type password is used to hide the data we entered in -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" id="mail" name="mail" placeholder="mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gend">Gender</label>
+                    </td>
+                    <td><input type="radio" name="gen" id="gend">Male</td>
+                    <td><input type="radio" name="gen" id="gend">Female</td>
+                    <td><input type="radio" name="gen" id="gend">Other</td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="lang">Languages</lable>
+                    </td>
+                    <td> <input type="checkbox" id="lang">HTML</td>
+                    <td><input type="checkbox" id="lang">CSS</td>
+                    <td><input type="checkbox" id="lang">JS</tr></td> 
+                </tr>
+                <tr>
+                    <td><label for="col">choose color</label></td>
+                    <td><input type="color" name="c" id="col"></td>
+                </tr>
+                <tr>
+                    <td><label for="d">Date</label></td>
+                    <td><input type="date" name="d" id="d"></td>
+                </tr>
+                <tr>
+                    <td><label for="dt">DateTime</label></td>
+                    <td><input type="datetime" name="dt" id="dt"></td>
+                </tr>
+                <tr>
+                    <td><label for="dtl">Datetimelocal</label></td>
+                    <td><input type="datetime-local" name="dtl" id="dtl"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="m">Month</label>
+                    </td>
+                    <td><input type="month" name="m" id="m"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="w">Week</label>
+                    </td>
+                    <td><input type="week" name="w" id="w"></td>
+                </tr>
+                <tr>
+                    <td><label for="f">File</label></td>
+                    <td><input type="file" name="f" id="f"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="r">Range</label>
+                    </td>
+                    <td>
+                        <input type="range" name="r" id="r">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="n">Number</label>
+                    </td>
+                    <td>
+                        <input type="number" name="n" id="n">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="i">Image</label>
+                    </td>
+                    <td>
+                        <input type="image" src="c:\Users\mithu\Desktop\New folder\A\appu.jfif" name="i" id="i" height="40px" width="40px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="u">URL</label>
+                    </td>
+                    <td>
+                        <input type="url" name="u" id="u">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="s">Search</label>
+                    </td>
+                    <td><input type="search" name="s" id="s"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="h">hidden</label>
+                    </td>
+                    <td>
+                        <input type="hidden" name="h" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="r">Reset</label>
+                    </td>
+                    <td><input type="reset" name="r" id="r"></td>
+                </tr>
+
+                    <td>
+                        <button>SUBMIT</button>
+                    </td>
+                    <td>
+                        <button>CLEAR</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

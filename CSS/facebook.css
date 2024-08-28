@@ -1,0 +1,35 @@
+fieldset{
+    margin: 5% 50% 0% 40%;
+    border-radius: 10px 10px 10px 10px;
+}
+h2{
+    color: blue;
+}
+
+ input,button,a{
+    padding: 10px 15px 10px 15px;
+    margin: 5px 5px 5px 5px; 
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+
+ }
+#L{
+    padding-left: 80px;
+    padding-right: 105px;
+    background-color: blue;
+    color: white;
+}
+#F{
+    margin-left: 0px;
+    padding: 0px;
+    font-size: small;
+}
+#C{
+    margin-left: 40px;
+    background-color: green;
+    color: white;
+}
+#P{
+    padding-right: 45px;
+}

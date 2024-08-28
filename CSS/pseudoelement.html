@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div>h1::first-letter{
+            color:blue;
+            font-size :150px     
+        }
+
+        div>h1::first-line{
+            color:aqua
+        }
+
+        div>h1::selection{
+            color:blueviolet;
+            background-color: brown;
+        }
+        
+        ol>li::marker{
+            color: aqua;
+            font-size: 40px;
+
+        }
+
+         div>h1::before{
+            content:"hai" ;
+        } 
+
+        div>h1::after{
+            content: "thank you";
+            color: chocolate;
+            font-size: 40px;
+        }
+
+        div>h1{
+            height: 100vh;
+            width: 60%;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nobis rerum voluptatum in aut neque sequi ut, adipisci nulla quaerat ipsum dignissimos a suscipit ad! Quibusdam, eaque repudiandae? Itaque, animi dolorum magni quis ea ipsa distinctio modi. Est earum illum obcaecati, ipsum eligendi quidem facere voluptatem dolore doloribus, magnam aliquam.</h1>
+    </div>
+
+    <ol>
+        <li>hai</li>
+        <li>hello</li>
+        <li>bye</li>
+        <li>tata</li>
+    </ol>
+</body>
+</html>

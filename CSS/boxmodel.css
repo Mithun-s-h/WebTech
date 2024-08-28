@@ -1,0 +1,39 @@
+div{
+     border: 2px solid blue;
+    width: 50px;
+
+    /* padding */
+
+    /* 
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 20px; 
+    */
+
+    /* shorted property */
+    padding: 20px 15px 30px 20px;
+/* 
+    /* margin */
+    /* margin-top: 120px;
+    margin-right: 80px ;
+    margin-bottom: 120px; ;
+    margin-left: 80px; ;  */
+
+    /* shorted property */
+    margin: 120px 80px 120px 80px;
+
+    /* outline */
+    /* outline-offset:50px;
+    outline-width: 50px;
+    outline-color: aqua;
+    outline-style: solid; */
+
+     outline: 50px 50px blueviolet dotted; 
+
+
+
+
+
+
+}

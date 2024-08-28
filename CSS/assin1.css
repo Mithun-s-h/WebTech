@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://mobirise.com/extensions/techm4/assets/images/01.png");
+    background-repeat: no-repeat; */
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:lavender;
+    position: relative;
+#n{
+    position: sticky; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(203, 155, 245);
+
+    
+    
+}
+#T{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#BN{
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+.b{
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    padding: 5px 13px;
+}
+.r{
+    border-radius: 10px 10px 10px 10px;
+    border-color:red;
+    background-color:red;
+    color: white;
+    padding: 5px 13px;
+}
+.v{
+    color: rgb(157, 65, 237);
+}
+#c{
+    padding: 40px;
+}
+#p{
+    font-size: x-small;
+    padding: 0px;
+    margin-top: 1px;
+}
+#text{
+    margin: 100px 10px 100px 850px;
+    color: rgb(146, 57, 223);
+    font-size: large;
+}
+
+#main{
+    margin: 100px 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px; */
+    background-color: aliceblue;
+}
+    

@@ -1,0 +1,17 @@
+h3,p{
+    color: yellow;
+}
+*{
+    background-color: green;
+}
+input{
+    color: darkgray;
+    background-color: white;
+}
+button{
+    color:purple;
+    background-color:antiquewhite;
+}
+h3{
+    font-size: 50px;
+}

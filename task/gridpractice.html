@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        #grid{
+            height: 80vh;
+            width: 80vh;
+            display: grid;
+            gap: 5px;
+            border: 1px solid black;
+
+        }
+        .items{
+            border: 2px solid black;
+        }
+        #i1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        #i2{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        #i3{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #i4{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #i5{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #i6{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #i7{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #i8{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        p{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div id="i1" class="items">box1</div>
+        <div id="i2" class="items">box2 
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt aut culpa voluptates odio ab reiciendis labore nostrum explicabo adipisci eum?
+            </p>
+        </div>
+        <div id="i3" class="items">box3
+            <img src="https://cdn.pixabay.com/photo/2023/05/05/06/19/street-7971714_1280.jpg" width="260px" height="400px" alt="">
+        </div>
+        <div id="i4" class="items">box4
+            <img src="https://cdn.pixabay.com/photo/2024/02/17/13/38/huts-8579309_640.jpg" alt="">
+        </div>
+        <div id="i5" class="items">box5
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatibus corrupti porro sit eum quod commodi harum aperiam dolor repellendus?</p>
+        </div>
+        <div id="i6" class="items">box6
+            <img src="https://cdn.pixabay.com/photo/2024/02/22/09/04/warehouse-8589487_640.jpg" alt="">
+        </div>
+        <div id="i7" class="items">box7
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, repellat rerum accusamus fuga eos ullam deserunt natus eum cumque blanditiis iste, sunt vitae consequuntur quo atque quaerat laudantium a error!
+            </p>
+        </div>
+        <div id="i8" class="items">box8</div>
+    </div>
+</body>
+</html>

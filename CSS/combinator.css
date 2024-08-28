@@ -1,0 +1,19 @@
+/* descendent selector */
+article{
+    color: blueviolet;
+}
+
+/* child selector */
+article>div{
+    color: aqua;
+}
+
+/* adjacent sibling selector */
+article+div{
+    color: brown;
+}
+
+/* general sibling selector */
+article~div{
+    color: chocolate;
+}

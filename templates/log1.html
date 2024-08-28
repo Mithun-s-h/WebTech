@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url("https://media.istockphoto.com/id/1313300720/photo/abstract-blur-soft-focus-blue-color-interior-of-modern-cleaning-workplace-background-with.webp?b=1&s=170667a&w=0&k=20&c=_Q703Fw7EWzCXhMOUgiYhbZQkLRvbyQQhAuvZmGx_JY=");
+            background-size: 100% 100vh;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            /* border-radius: 20px; */
+        }
+        .loginbox{
+            width: 500px;
+            height: 500px;
+            background:  black;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+            border-radius: 20px;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+        h1{
+          margin: 0;
+          padding: 0 0 20px;
+          text-align: center;
+          font-size: 22px;
+        }
+         p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        input[type="text"] , input[type="password"]{
+            border: none;
+            border-bottom: 1px solid #f0ecec;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+         }
+         input[type="submit"]{
+            border: none;
+            outline: none;
+            height: 40px;
+            background-color: blue;
+            color: white;
+            font-size: 18px;
+            border-radius: 20px;
+         }
+         input[type="submit"]:hover{
+            cursor: pointer;
+            background-color:purple;
+            color: wheat;
+         }
+         a{
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 40px;
+            color: rgb(236, 230, 230);
+            padding: 40% 30%;
+         }
+         a:hover{
+            color: rgb(16, 152, 132);
+         }
+    </style>
+</head>
+<body>
+    <div class="loginbox">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.nbOCzi5LqG9kaEGpuMlf4AHaHa&pid=Api&P=0&h=220" alt="avatar"> 
+      <h1>Login</h1> 
+      <form action="">
+        <p>Username</p>
+        <input type="text" name="" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="" placeholder="Enter Password">
+        <input type="submit" name="" value="Login">
+        <a href="#">Lost your password?</a><br>
+        <a href="#">Don't have an account?</a>
+      </form>
+
+    </div>
+</body>
+</html>

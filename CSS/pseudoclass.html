@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkbased pseudo classes</title>
+    <style>
+        div>a:link{
+            color: red;
+        }
+        div>a:visited{
+            color: blue;
+        }
+        div>a:hover{
+            color:chartreuse;
+            }
+        div>a:active{
+            color: aqua;
+        }
+
+        section{
+            height: 30vh;
+            width: 30vw;
+            background-color: blueviolet;
+            border: 1px solid black;
+            transition: all 10s linear 0.5s;
+            
+        }
+
+        section:hover{
+            background-color: aqua;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="https://www.insta.com">login insta</a>
+    </div>
+
+    <section>
+        heloo
+    </section>
+</body>
+</html>
